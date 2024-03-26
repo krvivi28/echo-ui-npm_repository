@@ -6,7 +6,7 @@ export default defineConfig({
   output: {
     dir: "dist",
     format: "esm",
-    name: "echo-ui",
+    name: "@echo28/echo-ui",
   },
   external: ["react", "react-dom"],
   plugins: [typescript({ tsconfig: "tsconfig.json" })],
